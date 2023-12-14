@@ -5,8 +5,11 @@
                 Logo
             </li>
             <ul class="flex gap-6 font-semibold leading-6">
-                <li data-aos="fade-down">Sign in</li>
-                <li data-aos="fade-left">Sign up</li>
+                <li data-aos="fade-down">
+                    <router-link to="/login">Sign in</router-link>
+                </li>
+                <li data-aos="fade-left">
+                    <router-link to="/login">Sign up</router-link></li>
             </ul>
         </ul>
     </nav>
