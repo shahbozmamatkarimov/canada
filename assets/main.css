@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 input {
-    border: none;
     outline: none;
+}
+
+body, html {
+    background: #6533a7;
 }
